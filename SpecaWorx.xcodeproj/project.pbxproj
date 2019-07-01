@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E4E2D4A22940133006FAC8D /* QRIconTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E2D4922940133006FAC8D /* QRIconTableCell.swift */; };
+		9E4E2D4C22940553006FAC8D /* QRInfoTableCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E2D4B22940553006FAC8D /* QRInfoTableCell1.swift */; };
+		9E4E2D4E2294088C006FAC8D /* QRInfoTableCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E2D4D2294088C006FAC8D /* QRInfoTableCell2.swift */; };
+		9E4E2D5022940C3E006FAC8D /* QRInfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E2D4F22940C3E006FAC8D /* QRInfoTableCell.swift */; };
+		9E4E2D5422943C30006FAC8D /* ScanScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E2D5322943C30006FAC8D /* ScanScreenController.swift */; };
+		9E4E2D5622944A45006FAC8D /* ScanResultScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E2D5522944A45006FAC8D /* ScanResultScreenController.swift */; };
+		9EA306CD228E70C400EAAE91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306CC228E70C400EAAE91 /* AppDelegate.swift */; };
+		9EA306CF228E70C400EAAE91 /* WelcomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306CE228E70C400EAAE91 /* WelcomeScreenController.swift */; };
+		9EA306D2228E70C400EAAE91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA306D0228E70C400EAAE91 /* Main.storyboard */; };
+		9EA306D4228E70C600EAAE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA306D3228E70C600EAAE91 /* Assets.xcassets */; };
+		9EA306D7228E70C600EAAE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA306D5228E70C600EAAE91 /* LaunchScreen.storyboard */; };
+		9EA306E2228E748100EAAE91 /* UIStackViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306DF228E748100EAAE91 /* UIStackViewFactory.swift */; };
+		9EA306E3228E748100EAAE91 /* UIButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306E0228E748100EAAE91 /* UIButtonFactory.swift */; };
+		9EA306E4228E748100EAAE91 /* UILabelProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306E1228E748100EAAE91 /* UILabelProperty.swift */; };
+		9EA306E7228E75DF00EAAE91 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306E6228E75DF00EAAE91 /* UIViewExtension.swift */; };
+		9EA306EA228E7C1200EAAE91 /* SignPainter HouseScript Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EA306E9228E778900EAAE91 /* SignPainter HouseScript Regular.ttf */; };
+		9EA306ED228E807B00EAAE91 /* AttributesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306EC228E807B00EAAE91 /* AttributesClass.swift */; };
+		9EA306EF228E8F2200EAAE91 /* SignUpScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306EE228E8F2200EAAE91 /* SignUpScreenController.swift */; };
+		9EA306F2228E9AB100EAAE91 /* signUpTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306F1228E9AB100EAAE91 /* signUpTableCell.swift */; };
+		9EA306F4228EA74100EAAE91 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EA306F3228EA74100EAAE91 /* Montserrat-Medium.otf */; };
+		9EA306F6228EB60F00EAAE91 /* SignInScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306F5228EB60F00EAAE91 /* SignInScreenController.swift */; };
+		9EA306F8228EBB1300EAAE91 /* ForgotPasswordScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306F7228EBB1300EAAE91 /* ForgotPasswordScreenController.swift */; };
+		9EA306FC228EBF1300EAAE91 /* SignInTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306FB228EBF1300EAAE91 /* SignInTableCell.swift */; };
+		9EA306FF228EC74A00EAAE91 /* ConstantVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA306FE228EC74A00EAAE91 /* ConstantVariables.swift */; };
+		9EA30704228ED35100EAAE91 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA30703228ED35100EAAE91 /* Validations.swift */; };
+		9EA30706228ED39E00EAAE91 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA30705228ED39E00EAAE91 /* Reachability.swift */; };
+		9EA3070B228EE14D00EAAE91 /* NetworkingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3070A228EE14D00EAAE91 /* NetworkingClass.swift */; };
+		9EA3070E228EFC2900EAAE91 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3070D228EFC2900EAAE91 /* SlideMenuController.swift */; };
+		9EA30710228EFC3500EAAE91 /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3070F228EFC3500EAAE91 /* ExSlideMenuController.swift */; };
+		9EA30712228EFC5200EAAE91 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA30711228EFC5100EAAE91 /* UIApplication.swift */; };
+		9EA30714228EFD2C00EAAE91 /* SlideMenuScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA30713228EFD2C00EAAE91 /* SlideMenuScreenController.swift */; };
+		9EA30716228F025D00EAAE91 /* SlideMenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA30715228F025D00EAAE91 /* SlideMenuTableCell.swift */; };
+		9EB0298822926A8400DAE827 /* ProfileInformationScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0298722926A8400DAE827 /* ProfileInformationScreenController.swift */; };
+		9EC945CD22ABDEAA00A24EBC /* AboutScreenControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945CC22ABDEAA00A24EBC /* AboutScreenControllerViewController.swift */; };
+		9EE7625F22950FBC004F3594 /* ScanResultTableCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7625E22950FBC004F3594 /* ScanResultTableCell1.swift */; };
+		9EE76261229510CF004F3594 /* ScanResultTableCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE76260229510CF004F3594 /* ScanResultTableCell2.swift */; };
+		9EE762632295275B004F3594 /* QRScannerScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE762622295275B004F3594 /* QRScannerScreenController.swift */; };
+		9EE76265229527ED004F3594 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE76264229527ED004F3594 /* QRScannerView.swift */; };
+		9EE762672295A0AA004F3594 /* QRProfileInfoScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE762662295A0AA004F3594 /* QRProfileInfoScreenController.swift */; };
+		A2DE630D693D95A0399DA396 /* Pods_SpecaWorx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A0206423713C589A05B46 /* Pods_SpecaWorx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		413A0206423713C589A05B46 /* Pods_SpecaWorx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpecaWorx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67341E313F58460CEA86047D /* Pods-SpecaWorx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpecaWorx.debug.xcconfig"; path = "Target Support Files/Pods-SpecaWorx/Pods-SpecaWorx.debug.xcconfig"; sourceTree = "<group>"; };
+		9E4E2D4922940133006FAC8D /* QRIconTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRIconTableCell.swift; sourceTree = "<group>"; };
+		9E4E2D4B22940553006FAC8D /* QRInfoTableCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRInfoTableCell1.swift; sourceTree = "<group>"; };
+		9E4E2D4D2294088C006FAC8D /* QRInfoTableCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRInfoTableCell2.swift; sourceTree = "<group>"; };
+		9E4E2D4F22940C3E006FAC8D /* QRInfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRInfoTableCell.swift; sourceTree = "<group>"; };
+		9E4E2D5322943C30006FAC8D /* ScanScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanScreenController.swift; sourceTree = "<group>"; };
+		9E4E2D5522944A45006FAC8D /* ScanResultScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultScreenController.swift; sourceTree = "<group>"; };
+		9EA306C9228E70C400EAAE91 /* SpecaWorx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecaWorx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA306CC228E70C400EAAE91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EA306CE228E70C400EAAE91 /* WelcomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenController.swift; sourceTree = "<group>"; };
+		9EA306D1228E70C400EAAE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EA306D3228E70C600EAAE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EA306D6228E70C600EAAE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EA306D8228E70C600EAAE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA306DF228E748100EAAE91 /* UIStackViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewFactory.swift; sourceTree = "<group>"; };
+		9EA306E0228E748100EAAE91 /* UIButtonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonFactory.swift; sourceTree = "<group>"; };
+		9EA306E1228E748100EAAE91 /* UILabelProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelProperty.swift; sourceTree = "<group>"; };
+		9EA306E6228E75DF00EAAE91 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9EA306E9228E778900EAAE91 /* SignPainter HouseScript Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SignPainter HouseScript Regular.ttf"; sourceTree = "<group>"; };
+		9EA306EC228E807B00EAAE91 /* AttributesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesClass.swift; sourceTree = "<group>"; };
+		9EA306EE228E8F2200EAAE91 /* SignUpScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenController.swift; sourceTree = "<group>"; };
+		9EA306F1228E9AB100EAAE91 /* signUpTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpTableCell.swift; sourceTree = "<group>"; };
+		9EA306F3228EA74100EAAE91 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		9EA306F5228EB60F00EAAE91 /* SignInScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenController.swift; sourceTree = "<group>"; };
+		9EA306F7228EBB1300EAAE91 /* ForgotPasswordScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenController.swift; sourceTree = "<group>"; };
+		9EA306FB228EBF1300EAAE91 /* SignInTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTableCell.swift; sourceTree = "<group>"; };
+		9EA306FE228EC74A00EAAE91 /* ConstantVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantVariables.swift; sourceTree = "<group>"; };
+		9EA30703228ED35100EAAE91 /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		9EA30705228ED39E00EAAE91 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9EA3070A228EE14D00EAAE91 /* NetworkingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClass.swift; sourceTree = "<group>"; };
+		9EA3070D228EFC2900EAAE91 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		9EA3070F228EFC3500EAAE91 /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		9EA30711228EFC5100EAAE91 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		9EA30713228EFD2C00EAAE91 /* SlideMenuScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuScreenController.swift; sourceTree = "<group>"; };
+		9EA30715228F025D00EAAE91 /* SlideMenuTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuTableCell.swift; sourceTree = "<group>"; };
+		9EB0298722926A8400DAE827 /* ProfileInformationScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInformationScreenController.swift; sourceTree = "<group>"; };
+		9EC945CC22ABDEAA00A24EBC /* AboutScreenControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreenControllerViewController.swift; sourceTree = "<group>"; };
+		9EE7625E22950FBC004F3594 /* ScanResultTableCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultTableCell1.swift; sourceTree = "<group>"; };
+		9EE76260229510CF004F3594 /* ScanResultTableCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultTableCell2.swift; sourceTree = "<group>"; };
+		9EE762622295275B004F3594 /* QRScannerScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerScreenController.swift; sourceTree = "<group>"; };
+		9EE76264229527ED004F3594 /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		9EE762662295A0AA004F3594 /* QRProfileInfoScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRProfileInfoScreenController.swift; sourceTree = "<group>"; };
+		F3BBD3D8EB603B9503CDD1BE /* Pods-SpecaWorx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpecaWorx.release.xcconfig"; path = "Target Support Files/Pods-SpecaWorx/Pods-SpecaWorx.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EA306C6228E70C400EAAE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE630D693D95A0399DA396 /* Pods_SpecaWorx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CBFDA76F9C682F882DE31D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67341E313F58460CEA86047D /* Pods-SpecaWorx.debug.xcconfig */,
+				F3BBD3D8EB603B9503CDD1BE /* Pods-SpecaWorx.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9EA306C0228E70C400EAAE91 = {
+			isa = PBXGroup;
+			children = (
+				9EA306CB228E70C400EAAE91 /* SpecaWorx */,
+				9EA306CA228E70C400EAAE91 /* Products */,
+				8CBFDA76F9C682F882DE31D8 /* Pods */,
+				DFEC8DAC926554C8FE377263 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EA306CA228E70C400EAAE91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306C9228E70C400EAAE91 /* SpecaWorx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EA306CB228E70C400EAAE91 /* SpecaWorx */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306CC228E70C400EAAE91 /* AppDelegate.swift */,
+				9EC945CA22AB7A7500A24EBC /* WelcomeScreens */,
+				9EC945CB22ABD0A100A24EBC /* QRScannerScreens */,
+				9EE762662295A0AA004F3594 /* QRProfileInfoScreenController.swift */,
+				9EB0298722926A8400DAE827 /* ProfileInformationScreenController.swift */,
+				9EA30713228EFD2C00EAAE91 /* SlideMenuScreenController.swift */,
+				9EC945CC22ABDEAA00A24EBC /* AboutScreenControllerViewController.swift */,
+				9EA306D0228E70C400EAAE91 /* Main.storyboard */,
+				9EA306D3228E70C600EAAE91 /* Assets.xcassets */,
+				9EA306D5228E70C600EAAE91 /* LaunchScreen.storyboard */,
+				9EA306D8228E70C600EAAE91 /* Info.plist */,
+				9EA3070C228EFC1400EAAE91 /* SlideMenuClass */,
+				9EA30702228ED31F00EAAE91 /* Validations */,
+				9EA30709228EDED900EAAE91 /* Modal */,
+				9EA306F0228E9A9000EAAE91 /* TableCells */,
+				9EA306EB228E805700EAAE91 /* Custom Attributes */,
+				9EA306E5228E74D200EAAE91 /* AutoLayoutConstraints */,
+				9EA306DE228E745700EAAE91 /* UIFactory */,
+				9EA306FD228EC70E00EAAE91 /* Constants */,
+				9EA306E8228E775D00EAAE91 /* Custom Fonts */,
+			);
+			path = SpecaWorx;
+			sourceTree = "<group>";
+		};
+		9EA306DE228E745700EAAE91 /* UIFactory */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306E0228E748100EAAE91 /* UIButtonFactory.swift */,
+				9EA306E1228E748100EAAE91 /* UILabelProperty.swift */,
+				9EA306DF228E748100EAAE91 /* UIStackViewFactory.swift */,
+			);
+			path = UIFactory;
+			sourceTree = "<group>";
+		};
+		9EA306E5228E74D200EAAE91 /* AutoLayoutConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306E6228E75DF00EAAE91 /* UIViewExtension.swift */,
+			);
+			path = AutoLayoutConstraints;
+			sourceTree = "<group>";
+		};
+		9EA306E8228E775D00EAAE91 /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306E9228E778900EAAE91 /* SignPainter HouseScript Regular.ttf */,
+				9EA306F3228EA74100EAAE91 /* Montserrat-Medium.otf */,
+			);
+			path = "Custom Fonts";
+			sourceTree = "<group>";
+		};
+		9EA306EB228E805700EAAE91 /* Custom Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306EC228E807B00EAAE91 /* AttributesClass.swift */,
+			);
+			path = "Custom Attributes";
+			sourceTree = "<group>";
+		};
+		9EA306F0228E9A9000EAAE91 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306F1228E9AB100EAAE91 /* signUpTableCell.swift */,
+				9EA306FB228EBF1300EAAE91 /* SignInTableCell.swift */,
+				9EA30715228F025D00EAAE91 /* SlideMenuTableCell.swift */,
+				9E4E2D4922940133006FAC8D /* QRIconTableCell.swift */,
+				9E4E2D4F22940C3E006FAC8D /* QRInfoTableCell.swift */,
+				9E4E2D4B22940553006FAC8D /* QRInfoTableCell1.swift */,
+				9E4E2D4D2294088C006FAC8D /* QRInfoTableCell2.swift */,
+				9EE7625E22950FBC004F3594 /* ScanResultTableCell1.swift */,
+				9EE76260229510CF004F3594 /* ScanResultTableCell2.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		9EA306FD228EC70E00EAAE91 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306FE228EC74A00EAAE91 /* ConstantVariables.swift */,
+				9EE76264229527ED004F3594 /* QRScannerView.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9EA30702228ED31F00EAAE91 /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				9EA30703228ED35100EAAE91 /* Validations.swift */,
+				9EA30705228ED39E00EAAE91 /* Reachability.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		9EA30709228EDED900EAAE91 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				9EA3070A228EE14D00EAAE91 /* NetworkingClass.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		9EA3070C228EFC1400EAAE91 /* SlideMenuClass */ = {
+			isa = PBXGroup;
+			children = (
+				9EA30711228EFC5100EAAE91 /* UIApplication.swift */,
+				9EA3070D228EFC2900EAAE91 /* SlideMenuController.swift */,
+				9EA3070F228EFC3500EAAE91 /* ExSlideMenuController.swift */,
+			);
+			path = SlideMenuClass;
+			sourceTree = "<group>";
+		};
+		9EC945CA22AB7A7500A24EBC /* WelcomeScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9EA306CE228E70C400EAAE91 /* WelcomeScreenController.swift */,
+				9EA306F5228EB60F00EAAE91 /* SignInScreenController.swift */,
+				9EA306EE228E8F2200EAAE91 /* SignUpScreenController.swift */,
+				9EA306F7228EBB1300EAAE91 /* ForgotPasswordScreenController.swift */,
+			);
+			path = WelcomeScreens;
+			sourceTree = "<group>";
+		};
+		9EC945CB22ABD0A100A24EBC /* QRScannerScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9E4E2D5322943C30006FAC8D /* ScanScreenController.swift */,
+				9EE762622295275B004F3594 /* QRScannerScreenController.swift */,
+				9E4E2D5522944A45006FAC8D /* ScanResultScreenController.swift */,
+			);
+			path = QRScannerScreens;
+			sourceTree = "<group>";
+		};
+		DFEC8DAC926554C8FE377263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413A0206423713C589A05B46 /* Pods_SpecaWorx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EA306C8228E70C400EAAE91 /* SpecaWorx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA306DB228E70C600EAAE91 /* Build configuration list for PBXNativeTarget "SpecaWorx" */;
+			buildPhases = (
+				8D6A5BB1CD9E7754312F21E1 /* [CP] Check Pods Manifest.lock */,
+				9EA306C5228E70C400EAAE91 /* Sources */,
+				9EA306C6228E70C400EAAE91 /* Frameworks */,
+				9EA306C7228E70C400EAAE91 /* Resources */,
+				5A869C431C6C8D8EE0B91BA1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpecaWorx;
+			productName = SpecaWorx;
+			productReference = 9EA306C9228E70C400EAAE91 /* SpecaWorx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EA306C1228E70C400EAAE91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anil Kumar";
+				TargetAttributes = {
+					9EA306C8228E70C400EAAE91 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9EA306C4228E70C400EAAE91 /* Build configuration list for PBXProject "SpecaWorx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EA306C0228E70C400EAAE91;
+			productRefGroup = 9EA306CA228E70C400EAAE91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EA306C8228E70C400EAAE91 /* SpecaWorx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EA306C7228E70C400EAAE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA306EA228E7C1200EAAE91 /* SignPainter HouseScript Regular.ttf in Resources */,
+				9EA306F4228EA74100EAAE91 /* Montserrat-Medium.otf in Resources */,
+				9EA306D7228E70C600EAAE91 /* LaunchScreen.storyboard in Resources */,
+				9EA306D4228E70C600EAAE91 /* Assets.xcassets in Resources */,
+				9EA306D2228E70C400EAAE91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A869C431C6C8D8EE0B91BA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpecaWorx/Pods-SpecaWorx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpecaWorx/Pods-SpecaWorx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6A5BB1CD9E7754312F21E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpecaWorx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EA306C5228E70C400EAAE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA306E7228E75DF00EAAE91 /* UIViewExtension.swift in Sources */,
+				9EA306EF228E8F2200EAAE91 /* SignUpScreenController.swift in Sources */,
+				9EA306F2228E9AB100EAAE91 /* signUpTableCell.swift in Sources */,
+				9EA306F6228EB60F00EAAE91 /* SignInScreenController.swift in Sources */,
+				9EA306FC228EBF1300EAAE91 /* SignInTableCell.swift in Sources */,
+				9EE762672295A0AA004F3594 /* QRProfileInfoScreenController.swift in Sources */,
+				9EA3070E228EFC2900EAAE91 /* SlideMenuController.swift in Sources */,
+				9EA306F8228EBB1300EAAE91 /* ForgotPasswordScreenController.swift in Sources */,
+				9EA30704228ED35100EAAE91 /* Validations.swift in Sources */,
+				9EA30712228EFC5200EAAE91 /* UIApplication.swift in Sources */,
+				9EA306CF228E70C400EAAE91 /* WelcomeScreenController.swift in Sources */,
+				9EA30706228ED39E00EAAE91 /* Reachability.swift in Sources */,
+				9E4E2D5622944A45006FAC8D /* ScanResultScreenController.swift in Sources */,
+				9EA306E4228E748100EAAE91 /* UILabelProperty.swift in Sources */,
+				9E4E2D4C22940553006FAC8D /* QRInfoTableCell1.swift in Sources */,
+				9E4E2D4A22940133006FAC8D /* QRIconTableCell.swift in Sources */,
+				9EE76265229527ED004F3594 /* QRScannerView.swift in Sources */,
+				9EA306FF228EC74A00EAAE91 /* ConstantVariables.swift in Sources */,
+				9EC945CD22ABDEAA00A24EBC /* AboutScreenControllerViewController.swift in Sources */,
+				9E4E2D5422943C30006FAC8D /* ScanScreenController.swift in Sources */,
+				9EA30716228F025D00EAAE91 /* SlideMenuTableCell.swift in Sources */,
+				9EE762632295275B004F3594 /* QRScannerScreenController.swift in Sources */,
+				9EE76261229510CF004F3594 /* ScanResultTableCell2.swift in Sources */,
+				9E4E2D5022940C3E006FAC8D /* QRInfoTableCell.swift in Sources */,
+				9EA306CD228E70C400EAAE91 /* AppDelegate.swift in Sources */,
+				9EA306E3228E748100EAAE91 /* UIButtonFactory.swift in Sources */,
+				9EA306E2228E748100EAAE91 /* UIStackViewFactory.swift in Sources */,
+				9EA30714228EFD2C00EAAE91 /* SlideMenuScreenController.swift in Sources */,
+				9E4E2D4E2294088C006FAC8D /* QRInfoTableCell2.swift in Sources */,
+				9EB0298822926A8400DAE827 /* ProfileInformationScreenController.swift in Sources */,
+				9EA3070B228EE14D00EAAE91 /* NetworkingClass.swift in Sources */,
+				9EE7625F22950FBC004F3594 /* ScanResultTableCell1.swift in Sources */,
+				9EA306ED228E807B00EAAE91 /* AttributesClass.swift in Sources */,
+				9EA30710228EFC3500EAAE91 /* ExSlideMenuController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EA306D0228E70C400EAAE91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA306D1228E70C400EAAE91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EA306D5228E70C600EAAE91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA306D6228E70C600EAAE91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EA306D9228E70C600EAAE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EA306DA228E70C600EAAE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EA306DC228E70C600EAAE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67341E313F58460CEA86047D /* Pods-SpecaWorx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2C4R2VE3A;
+				INFOPLIST_FILE = SpecaWorx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atti.SpecaWorx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9EA306DD228E70C600EAAE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BBD3D8EB603B9503CDD1BE /* Pods-SpecaWorx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2C4R2VE3A;
+				INFOPLIST_FILE = SpecaWorx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atti.SpecaWorx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EA306C4228E70C400EAAE91 /* Build configuration list for PBXProject "SpecaWorx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA306D9228E70C600EAAE91 /* Debug */,
+				9EA306DA228E70C600EAAE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EA306DB228E70C600EAAE91 /* Build configuration list for PBXNativeTarget "SpecaWorx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA306DC228E70C600EAAE91 /* Debug */,
+				9EA306DD228E70C600EAAE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EA306C1228E70C400EAAE91 /* Project object */;
+}
